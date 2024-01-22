@@ -1,0 +1,34 @@
+.image-with-text {
+    position: relative;
+  text-align: center;/* You can adjust text alignment as needed */
+  }
+  
+  .image-with-text img {
+    width: 100%; /* Make the image take the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place the image behind the text */
+  }
+  
+  .image-with-text h1 {
+    position: relative; /* Make sure the text is on top of the image */
+    color: #fff; /* Set text color */
+    /* Additional styling for the text as needed */
+  }
+  
+  .youtube {
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding: 2;
+  }
+  .display-around {
+    padding: 0 10px; /* Adjust the value to add the desired space */
+  }
+  
+  .icons {
+    /* Your existing styles for the icons */
+  }
+  
